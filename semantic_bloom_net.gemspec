@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/semantic_bloom_net/version', __FILE__)
+require File.expand_path('../lib/sbn/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Jeremiah Jordan"]
@@ -13,5 +13,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "semantic_bloom_net"
   gem.require_paths = ["lib"]
-  gem.version       = SemanticBloomNet::VERSION
+  gem.version       = SBN::VERSION
 end
